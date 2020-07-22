@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn {
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    border: 3px solid #333;
+    margin: 0 10px;
+}
+
+span {
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
